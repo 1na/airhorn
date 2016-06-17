@@ -1,5 +1,5 @@
 {
-  "name": "Air Horner",
+  "name": "The Air Horner",
   "short_name": "Air Horner",
   "icons": [{
         "src": "images/touch/Airhorner_128.png",
@@ -17,8 +17,20 @@
         "src": "images/touch/Airhorner_192.png",
         "type": "image/png",
         "sizes": "192x192"
+      },
+      {
+        "src": "images/touch/Airhorner_256.png",
+        "type": "image/png",
+        "sizes": "256x256"
+      },
+      {
+        "src": "images/touch/Airhorner_512.png",
+        "type": "image/png",
+        "sizes": "512x512"
       }],
   "start_url": "/?homescreen=1",
   "display": "standalone",
-  "background_color": "#2196F3"
+  "orientation": "portrait",
+  "background_color": "#2196F3",
+  "theme_color": "#2196F3"
 }
